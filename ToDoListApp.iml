@@ -10,6 +10,15 @@
     <orderEntry type="module-library">
       <library>
         <CLASSES>
+          <root url="jar://$MODULE_DIR$/../jcalendar-1.4.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
           <root url="jar://$MODULE_DIR$/../miglayout-core-11.0.jar!/" />
         </CLASSES>
         <JAVADOC />
@@ -20,15 +29,6 @@
       <library>
         <CLASSES>
           <root url="jar://$MODULE_DIR$/../miglayout-swing-11.0.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
-      <library>
-        <CLASSES>
-          <root url="jar://$MODULE_DIR$/../jcalendar-1.4.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
