@@ -11,8 +11,6 @@ import javax.swing.JPanel;
 import javax.swing.JTextField;
 
 public class Task extends JPanel{
-
-	private Calendar cal;
 	
 	JLabel index;
 	JTextField taskName;
