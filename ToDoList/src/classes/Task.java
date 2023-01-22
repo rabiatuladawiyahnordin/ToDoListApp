@@ -11,6 +11,8 @@ import javax.swing.JPanel;
 import javax.swing.JTextField;
 
 public class Task extends JPanel{
+
+	private Calendar cal;
 	
 	JLabel index;
 	JTextField taskName;
@@ -27,10 +29,13 @@ public class Task extends JPanel{
 		
 		checked = false;
 		
-		index = new JLabel("");
-		index.setPreferredSize(new Dimension(20,20));
-		index.setHorizontalAlignment(JLabel.CENTER);
-		this.add(index,BorderLayout.WEST);
+//		index = new JLabel("");
+//		index.setPreferredSize(new Dimension(20,20));
+//		index.setHorizontalAlignment(JLabel.CENTER);
+//		this.add(index,BorderLayout.WEST);
+
+		cal = new Calendar();
+		this.add(cal,BorderLayout.WEST);
 	
 		taskName = new JTextField("TEST");
 		taskName.setBorder(BorderFactory.createEmptyBorder());
