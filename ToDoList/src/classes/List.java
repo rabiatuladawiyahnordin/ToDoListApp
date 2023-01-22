@@ -1,9 +1,7 @@
 package classes;
 
 
-import java.awt.Component;
-import java.awt.Dimension;
-import java.awt.GridLayout;
+import java.awt.*;
 
 import javax.swing.JPanel;
 
@@ -14,7 +12,7 @@ public class List extends JPanel{
 		
 		GridLayout layout = new GridLayout(10,1);
 		layout.setVgap(5);
-		
+		this.setBackground(Color.white);
 		this.setLayout(layout);
 		this.setPreferredSize(new Dimension(400,560));
 		
